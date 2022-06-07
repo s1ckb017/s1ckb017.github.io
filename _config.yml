@@ -18,7 +18,7 @@ linkedin_username: "michele-campa-12b903a1"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "minima"
+theme: pages-themes/hacker@v0.2.0
 
 rss: rss
 
@@ -29,6 +29,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 titles_from_headings:
   strip_title: true
